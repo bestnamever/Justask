@@ -56,6 +56,8 @@ class Invite(context: Context) : Dialog(context) {
                 val radioButtonView = RadioButton(this.context)
                 if(!list[i].user.equals(currentUser)) {
                     radioButtonView.setText(list[i].user)
+                    radioButtonView.setTextColor(R.color.black)
+                    radioButtonView.setTextSize(20.0F)
                     radiogroup.addView(radioButtonView)
                 }
             }

@@ -34,7 +34,8 @@
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black"
+        android:background="@color/white"/>
 
     <Button
         android:id="@+id/submit_id"

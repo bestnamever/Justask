@@ -16,6 +16,7 @@
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="0dp"
         android:text="TextView"
+        android:autoSizeTextType="uniform"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -25,15 +26,16 @@
     <TextView
         android:id="@+id/al_answer"
         android:layout_width="308dp"
-        android:layout_height="45dp"
+        android:layout_height="58dp"
         android:layout_marginStart="45dp"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="0dp"
+        android:autoSizeTextType="uniform"
         android:text="TextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="24sp"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black"
+        android:textSize="24sp" />
 
     <xyz.hanks.library.bang.SmallBangView
         android:id="@+id/imageViewAnimation"
