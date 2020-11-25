@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="900dp"
+    android:minHeight="385dp"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/answer_dia"
+        style="@android:style/Widget.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="Your answer"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:background="@color/text"/>
+
+    <Button
+        android:id="@+id/submit_ad"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer_dia"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="40dp"
+        android:text="Submit"
+        android:background="@color/text"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

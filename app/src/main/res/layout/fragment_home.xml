@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@android:drawable/divider_horizontal_textfield"
+    android:dividerPadding="12dp"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/RaisequestionButton"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_weight="1"
+        android:text="Raise a question"
+        android:background="@color/text"
+        android:textColor="@color/black"/>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/Itemlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

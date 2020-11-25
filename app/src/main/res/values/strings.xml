@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JustAsk</string>
+    <string name="title_home">Home</string>
+    <string name="title_fav">Favourite</string>
+    <string name="title_question">Questions</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_myfav">My favourite</string>
+</resources>
